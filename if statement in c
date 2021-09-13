@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char name;
+    printf("please Enter A name:");
+    scanf("%c", &name);
+
+    if(name == 'L')
+    {
+
+         printf("The name entered is valid. \n");
+    }
+    if(name != 'L')
+    {
+
+         printf("The name entered is invalid. \n");
+    }
+    return 0;
+}
