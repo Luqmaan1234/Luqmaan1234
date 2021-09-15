@@ -3,19 +3,19 @@
 
 int main()
 {
-    char name;
-    printf("please Enter A name:");
-    scanf("%c", &name);
+    char letter;
+    printf("please Enter A letter:");
+    scanf("%c", &letter);
 
-    if(name == 'L')
+    if(letter == 'L' )
     {
 
-         printf("The name entered is valid. \n");
+         printf("The letter entered is valid. \n");
     }
-    if(name != 'L')
+    if(letter != 'L' )
     {
 
-         printf("The name entered is invalid. \n");
+         printf("The letter entered is also valid. \n");
     }
     return 0;
 }
